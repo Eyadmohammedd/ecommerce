@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+
+# Uploads
+uploads/
+public/uploads/
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# MongoDB
+mongodb-data/
+
+# Redis
+dump.rdb
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated files
+*.tgz
